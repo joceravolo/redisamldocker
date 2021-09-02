@@ -1,0 +1,57 @@
+# RedisAML Demo 
+services:
+
+# PostgreSQL
+  postgres:
+    image: postgres
+    container_name: amlpostgres
+    volumes:
+      - /home/joceravolo/redisaml:/redisaml
+    ports:
+      - "5432:5432"
+    networks:
+      amlnetwork:
+        ipv4_address: 172.25.0.02
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+    command:
+      - "postgres"
+      - "-c"
+      - "wal_level=logical"
+
+# Redis Enterprise
+  redis:
+    image: redislabs/redis
+    container_name: amlredis
+    cap_add:
+      - sys_resource
+    ports: 
+      - "8443:8443"
+      - "9443:9443"
+      - "12000:12000"
+      - "12001:12001"
+    networks:
+      amlnetwork:
+        ipv4_address: 172.25.0.03
+
+# Redis Insight        
+  redisinsight:
+    image: redislabs/redisinsight
+    container_name: amlredisinsight
+    volumes:
+      - /home/joceravolo/redisaml/redisinsight:/db
+    ports:
+      - "8001:8001"
+    networks:
+      amlnetwork:
+        ipv4_address: 172.25.0.04
+
+#Docker Networks
+networks:
+  amlnetwork:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.25.0.0/16
