@@ -1,0 +1,44 @@
+connectionId: jobConfigConnection
+job:
+  stream: jobStream
+  configSet: jobConfigs
+  consumerGroup: jobGroup
+  metrics:
+    connectionId: metricsConnection
+    retentionInHours: 12
+    keys:
+      - key: "public:amlcases:C:Throughput"
+        retentionInHours: 4
+        labels:
+          schema: public
+          table: amlcases
+          op: I
+      - key: "public:amlcases:U:Throughput"
+        retentionInHours: 4
+        labels:
+          schema: public
+          table: amlcases
+          op: U
+      - key: "public:amlcases:D:Throughput"
+        retentionInHours: 4
+        labels:
+          schema: public
+          table: amlcases
+          op: D
+      - key: "public:amlcases:Latency"
+        retentionInHours: 4
+        labels:
+          schema: public
+          table: amlcases
+  jobConfig:
+    - name: amlcases-postgres
+      config: JobConfig.yml
+      variables:
+        database: postgres
+        sourceValueTranslator: SOURCE_RECORD_TO_OP_TRANSLATOR
+
+        
+
+
+
+

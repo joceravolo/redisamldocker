@@ -1,0 +1,53 @@
+schema: public
+tables:
+  - table: amlcases
+    mapper:
+      id: Test
+      processorID: Test
+      publishBefore: false
+      columns:
+        - src: caseid
+          target: case
+          type: INT
+          publishBefore: false
+        - src: status
+          target: status
+        - src: investigator
+          target: investigator
+          type: INT
+        - src: amount
+          target: amount
+        - src: files
+          target: files
+        - src: reportdate
+          target: reportdate
+#          type: DATE_TIME
+        - src: lastupdate
+          target: lastupdate
+#          type: DATE_TIME
+        - src: report
+          target: report
+        - src: accountid
+          target: account
+          type: INT
+        - src: ssn
+          target: ssn
+          type: INT
+        - src: phone
+          target: phone
+        - src: ip
+          target: ip
+        - src: casebody
+          target: casebody
+        - src: priority
+          target: priority
+        - src: relatedtags
+          target: relatedtags
+        - src: fullname
+          target: fullname
+        - src: Street
+          target: street
+        - src: state
+          target: state
+        - src: postcode
+          target: postcode          
