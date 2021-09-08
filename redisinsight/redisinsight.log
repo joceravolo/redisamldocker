@@ -1,0 +1,2 @@
+WARNING 2021-08-24 21:09:38,527 django.request Bad Request: /api/instance/9731b040-659f-4048-a545-4e6bb12cf6a3/exec-query/
+WARNING 2021-08-24 21:09:38,551 django.request Bad Request: /api/instance/9731b040-659f-4048-a545-4e6bb12cf6a3/exec-query/
