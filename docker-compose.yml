@@ -6,7 +6,7 @@ services:
     image: postgres
     container_name: amlpostgres
     volumes:
-      - /home/joceravolo/redisaml:/redisaml
+      - $HOME/redisaml:/redisaml
     ports:
       - "5432:5432"
     networks:
@@ -40,7 +40,7 @@ services:
     image: redislabs/redisinsight
     container_name: amlredisinsight
     volumes:
-      - /home/joceravolo/redisaml/redisinsight:/db
+      - $HOME/redisaml/redisinsight:/db
     ports:
       - "8001:8001"
     networks:

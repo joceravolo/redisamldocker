@@ -18,23 +18,25 @@ echo 4. Wait for the containers to start
 sleep 15
 echo
 echo 5. Create postgres tables
-docker exec amlpostgres bash -c 'psql -U postgres -d postgres -b -f "redisaml/cdc/amlcreatetables.sql"' 
+docker exec amlpostgres bash -c 'psql -U postgres -d postgres -b -f "/cdc/amlcreatetables.sql"' 
 echo
 echo 6. Create redis cluster
 docker exec -d --privileged amlredis "/opt/redislabs/bin/rladmin" cluster create name cluster.local username joceravolo@yahoo.com password olavo
 sleep 10
 echo
 echo 7. Create redis database [amldb] for the AML cases with RediSearch, Timeseries and ReJSON enabled
-curl -k -u "joceravolo@yahoo.com:olavo" --request POST --url "https://localhost:9443/v1/bdbs" --header 'content-type: application/json' --data '{"name":"amldb","type":"redis","memory_size":502400000,"port":12000, "module_list": [ {"module_args": "PARTITIONS AUTO", "module_id": "185d404506c485d79a4d6a9ad461625e", "module_name": "search", "semantic_version": "2.0.8"} ,{"module_args": "","module_name":"ReJSON","semantic_version":"1.0.7"},{"module_args":"","module_name":"timeseries","semantic_version":"1.4.9"}]}'
+curl -k -u "joceravolo@yahoo.com:olavo" --request POST --url "https://localhost:9443/v1/bdbs" --header 'content-type: application/json' --data '{"name":"amldb","type":"redis","memory_size":502400000,"port":12000, "module_list": [ {"module_args": "PARTITIONS AUTO", "module_id": "185d404506c485d79a4d6a9ad461625e", "module_name": "search", "semantic_version": "2.0.11"} ,{"module_args": "","module_name":"ReJSON","semantic_version":"1.0.8"},{"module_args":"","module_name":"timeseries","semantic_version":"1.4.10"}]}'
 echo
 echo 8. Create redis database [cdcdb] for the CDC metrics
-curl -k -u "joceravolo@yahoo.com:olavo" --request POST --url "https://localhost:9443/v1/bdbs" --header 'content-type: application/json' --data '{"name":"cdcdb","type":"redis","memory_size":102400000,"port":12001, "module_list": [ {"module_args": "PARTITIONS AUTO", "module_id": "185d404506c485d79a4d6a9ad461625e", "module_name": "search", "semantic_version": "2.0.8"} ,{"module_args": "","module_name":"ReJSON","semantic_version":"1.0.7"},{"module_args":"","module_name":"timeseries","semantic_version":"1.4.9"}]}'
+curl -k -u "joceravolo@yahoo.com:olavo" --request POST --url "https://localhost:9443/v1/bdbs" --header 'content-type: application/json' --data '{"name":"cdcdb","type":"redis","memory_size":102400000,"port":12001, "module_list": [ {"module_args": "PARTITIONS AUTO", "module_id": "185d404506c485d79a4d6a9ad461625e", "module_name": "search", "semantic_version": "2.0.11"} ,{"module_args": "","module_name":"ReJSON","semantic_version":"1.0.8"},{"module_args":"","module_name":"timeseries","semantic_version":"1.4.10"}]}'
 
 echo
 echo
 echo 9. Start CDC
 cd redis-connect-postgres/bin
 source env.sh
+chmod +x cleansetup.sh 
+chmod +x startup.sh 
 ./cleansetup.sh
 ./startup.sh
 cd ../..
