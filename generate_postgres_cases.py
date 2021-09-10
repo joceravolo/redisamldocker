@@ -56,7 +56,7 @@ def insert_postgres_case(fake, id):
 # Connect to PostgreSQL container
 print("Connecting to Postgres database...")
 conn = psycopg2.connect(
-    host="172.25.0.2",
+    host="localhost",
     database="postgres",
     user="postgres",
     password="mysecretpassword")

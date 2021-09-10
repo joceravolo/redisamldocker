@@ -23,13 +23,13 @@ pipelineConfig:
       prependTableNameToKeys: true
       deleteOnKeyUpdate: true
       async: true
-    StringWriteStage:
-      handlerId: REDIS_OP_TO_STRING_WRITER
-      connectionId: srcConnection
-      metricsEnabled: false
-      prependTableNameToKeys: false
-      deleteOnKeyUpdate: true
-      async: true
+#    StringWriteStage:
+#      handlerId: REDIS_OP_TO_STRING_WRITER
+#      connectionId: srcConnection
+#      metricsEnabled: false
+#      prependTableNameToKeys: false
+#      deleteOnKeyUpdate: true
+#      async: true
     CheckpointStage:
       handlerId: REDIS_OP_CP_WRITER
       connectionId: srcConnection

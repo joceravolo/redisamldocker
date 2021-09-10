@@ -6,7 +6,7 @@ services:
     image: postgres
     container_name: amlpostgres
     volumes:
-      - $HOME/redisaml:/redisaml
+      - $HOME/redisamldocker:/redisaml
     ports:
       - "5432:5432"
     networks:

@@ -11,7 +11,7 @@ import itertools
 
 '''
     REDIS_HOSTNAME optional (default localhost)
-    REDIS_PORT optional (default 6379)
+    REDIS_PORT optional (default 12000)
     PREFIX_NAME optional (default cases)
     COUNT (default 100000)
     PAINT_ONLY optional (default False)
@@ -111,7 +111,7 @@ if __name__ == '__main__':
     batch = 1
     count = environ.get('COUNT',10000)
     redis_hostname = environ.get('REDIS_HOSTNAME','localhost')
-    redis_port = environ.get('REDIS_PORT',17491)
+    redis_port = environ.get('REDIS_PORT',12000)
     namespace = environ.get('NAMESPACE', "case") + ":"
     paint_only = environ.get('PAINT',False)
 

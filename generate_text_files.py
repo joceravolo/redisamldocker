@@ -58,8 +58,8 @@ if __name__ == '__main__':
 
     batch = 1
     count = environ.get('COUNT',10000)
-    redis_hostname = environ.get('REDIS_HOSTNAME','redis-17491.olavo.demo.redislabs.com')
-    redis_port = environ.get('REDIS_PORT',17491)
+    redis_hostname = environ.get('REDIS_HOSTNAME','localhost')
+    redis_port = environ.get('REDIS_PORT',12000)
     namespace = environ.get('NAMESPACE', "file") + ":"
     input_namespace = environ.get('INPUT_NAMESPACE',"case") + ":"
     csv_dir = environ.get('CSV_DIR', None)
