@@ -690,15 +690,18 @@
 01:24:44.026 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
 01:25:29.026 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
 01:26:14.027 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
-7.390 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
-23:55:04.889 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:06.403 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:18.390 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:19.903 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:31.890 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:33.402 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
-23:55:42.391 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
-23:55:45.389 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:26:59.027 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:27:44.026 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:28:29.026 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:29:14.028 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:29:59.032 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:30:44.027 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:31:29.027 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:32:14.027 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:32:59.032 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:33:44.031 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:34:29.032 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+C-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
 23:55:46.905 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
 23:55:58.889 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
 23:56:00.403 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
@@ -1639,3 +1642,86 @@
 01:26:27.361 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
 01:26:39.351 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
 01:26:40.861 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:26:52.849 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:26:54.362 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:06.351 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:07.866 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:12.351 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:27:19.849 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:21.362 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:33.350 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:34.862 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:46.850 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:48.362 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:27:57.350 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:28:00.349 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:01.862 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:13.850 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:15.363 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:27.349 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:28.862 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:40.849 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:42.350 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:28:42.363 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:54.352 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:28:55.867 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:07.850 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:09.363 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:21.351 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:22.867 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:27.351 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:29:34.851 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:36.364 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:48.350 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:29:49.863 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:01.853 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:03.367 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:12.351 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:30:15.351 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:16.866 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:28.853 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:30.366 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:42.351 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:43.868 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:55.851 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:30:57.351 [JobManagement-2] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:30:57.364 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:09.351 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:10.867 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:22.852 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:24.364 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:36.351 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:37.868 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:42.354 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:31:49.852 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:31:51.367 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:03.354 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:04.864 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:16.853 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:18.368 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:27.352 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:32:30.353 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:31.868 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:43.852 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:45.368 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:57.352 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:32:58.865 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:10.856 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:12.352 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:33:12.366 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:24.356 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:25.866 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:37.852 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:39.366 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:51.356 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:52.869 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:33:57.358 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:34:04.854 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:06.369 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:18.356 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:19.866 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:31.852 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:33.370 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:42.356 [JobManagement-1] INFO  startup - Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+01:34:45.353 [JobManagement-2] INFO  redisconnect - Refreshing Heartbeat signal for : hb-job:amlcases-postgres , with value : JC-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000
+01:34:46.868 [JobManagement-1] INFO  redisconnect - Refreshing Heartbeat signal for : hb-jobManager , with value : jobType1-JM-71189@Joses-MBP.hsd1.fl.comcast.net , expiry : 30000

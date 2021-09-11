@@ -113,3 +113,14 @@
 2021-09-11 01:24:44,026 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
 2021-09-11 01:25:29,026 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
 2021-09-11 01:26:14,027 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:26:59,027 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:27:44,026 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:28:29,026 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:29:14,028 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:29:59,032 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:30:44,027 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:31:29,027 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:32:14,027 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:32:59,032 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:33:44,031 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
+2021-09-11 01:34:29,032 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-71189@Joses-MBP.hsd1.fl.comcast.net
