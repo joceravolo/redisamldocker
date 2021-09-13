@@ -40,7 +40,7 @@ services:
     image: redislabs/redisinsight
     container_name: amlredisinsight
     volumes:
-      - $HOME/redisaml/redisinsight:/db
+      - $HOME/redisamldocker/redisinsight:/db
     ports:
       - "8001:8001"
     networks:

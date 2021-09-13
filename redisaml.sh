@@ -15,14 +15,14 @@ echo 3. Start containers with docker-compose
 docker-compose up -d
 echo
 echo 4. Wait for the containers to start
-sleep 30
+sleep 45
 echo
 echo 5. Create postgres tables
 docker exec amlpostgres bash -c 'psql -U postgres -d postgres -b -f "/redisaml/cdc/amlcreatetables.sql"' 
 echo
 echo 6. Create redis cluster
-docker exec -d --privileged amlredis "/opt/redislabs/bin/rladmin" cluster create name cluster.local username joceravolo@yahoo.com password olavo
-sleep 20
+docker exec -d --privileged amlredis "/opt/redislabs/bin/rladmin" cluster create name cluster.local username admin@email.com password admin
+sleep 40
 echo
 echo 7. Create redis database [amldb] for the AML cases with RediSearch, Timeseries and ReJSON enabled
 curl -k -u "joceravolo@yahoo.com:olavo" --request POST --url "https://localhost:9443/v1/bdbs" --header 'content-type: application/json' --data '{"name":"amldb","type":"redis","memory_size":502400000,"port":12000, "module_list": [ {"module_args": "PARTITIONS AUTO", "module_name": "search", "semantic_version": "2.0.11"} ,{"module_args": "","module_name":"ReJSON","semantic_version":"1.0.8"},{"module_args":"","module_name":"timeseries","semantic_version":"1.4.10"}]}'

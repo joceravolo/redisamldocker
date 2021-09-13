@@ -8,6 +8,8 @@ from logging import debug, info
 from faker import Faker
 import json
 import itertools
+import psycopg2
+from datetime import datetime
 
 '''
     REDIS_HOSTNAME optional (default localhost)
@@ -40,13 +42,13 @@ def create_text_file_record(fake, id, type):
 
     record["guid"] = str(uuid4()).replace("-","")
     record["caseid"] = id
-    record["s3_url"] = fake.file_path(depth=3, extension=type)
+    record["s3url"] = fake.file_path(depth=3, extension=type)
     if type is not 'csv':
         record["body"] = fake.text(max_nb_chars=random.randrange(120,4000))
     else:
         record["body"] = ""
     record["filetype"] = type
-    record["date_added"] = random.randrange(date_range[0],date_range[1])
+    record["adddate"] = random.randrange(date_range[0],date_range[1])
     
     # print(record)
     return record
@@ -63,6 +65,18 @@ if __name__ == '__main__':
     namespace = environ.get('NAMESPACE', "file") + ":"
     input_namespace = environ.get('INPUT_NAMESPACE',"case") + ":"
     csv_dir = environ.get('CSV_DIR', None)
+
+    # Connect to PostgreSQL container
+    print("Connecting to Postgres database...")
+    conn = psycopg2.connect(
+        host="localhost",
+        database="postgres",
+        user="postgres",
+        password="mysecretpassword")
+    mcursor = conn.cursor()
+    mcursor.execute('SELECT version()')
+    #db_version = mcursor.fetchone()
+    print('PostgreSQL database version: ', mcursor.fetchone()[0])
 
     r = Redis(host=redis_hostname, port=redis_port, decode_responses=True)
 
@@ -85,7 +99,8 @@ if __name__ == '__main__':
         record = create_text_file_record(fake,random.choice(caselist),type=random.choice(["pdf","txt","doc"]))
         if counter == 0: 
             print("Sample record: {}".format(json.dumps(record, indent=4)))
-        r.hset("{}{}".format(namespace,record["guid"]),mapping=record)
+        # r.hset("{}{}".format(namespace,record["guid"]),mapping=record)
+        mcursor.execute("insert into amlfiles (fileid, caseid, s3url, body, filetype, adddate) values (%s, %s, %s, %s, %s, %s) (record["guid"], record["caseid"], record["s3url"], record["body"], record["filetype"], record["adddate"])
         counter = counter + 1
     if counter % 1000 == 0 :
         print(".",end="",flush=True)
