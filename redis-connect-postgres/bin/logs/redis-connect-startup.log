@@ -1,449 +1,187 @@
-2021-09-12 15:13:02,251 INFO startup [main] ##################################################################
-2021-09-12 15:13:02,256 INFO startup [main] 	
-2021-09-12 15:13:02,256 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
-2021-09-12 15:13:02,256 INFO startup [main] 	
-2021-09-12 15:13:02,256 INFO startup [main] ##################################################################
-2021-09-12 15:13:02,420 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 15:13:03,058 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 15:13:03,065 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
-2021-09-12 15:13:03,065 INFO startup [main] Cleaning the Script Configuration from Redis Database
-2021-09-12 15:13:03,073 INFO startup [main] Cleaning the metrics from Redis Database
-2021-09-12 15:13:03,074 INFO startup [main] Cleaning Completed.
-2021-09-12 15:13:03,968 INFO startup [main] ##################################################################
-2021-09-12 15:13:03,969 INFO startup [main] 	
-2021-09-12 15:13:03,969 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
-2021-09-12 15:13:03,969 INFO startup [main] 	
-2021-09-12 15:13:03,969 INFO startup [main] ##################################################################
-2021-09-12 15:13:04,057 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 15:13:04,464 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 15:13:04,475 INFO startup [main] Setting Job Configuration information in Redis Database
-2021-09-12 15:13:04,489 INFO startup [main] Job Configuration Information is now Set in Redis Database
-2021-09-12 15:13:04,638 ERROR startup [main] Key : public:amlcases:C:Throughput does not exist
-2021-09-12 15:13:04,645 ERROR startup [main] Key : public:amlcases:U:Throughput does not exist
-2021-09-12 15:13:04,650 ERROR startup [main] Key : public:amlcases:D:Throughput does not exist
-2021-09-12 15:13:04,655 ERROR startup [main] Key : public:amlcases:Latency does not exist
-2021-09-12 15:13:04,657 INFO startup [main] Setting Metrics Configuration in Redis Database
-2021-09-12 15:13:04,672 INFO startup [main] Metrics Configuration is now set in Redis Database
-2021-09-12 15:13:04,672 INFO startup [main] Checking for Lua Scripts if found any...
-2021-09-12 15:13:04,672 INFO startup [main] Setup Completed.
-2021-09-12 15:13:05,449 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
-2021-09-12 15:13:05,451 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
-2021-09-12 15:13:05,451 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
-2021-09-12 15:13:05,451 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
-2021-09-12 15:13:05,451 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
-2021-09-12 15:13:05,451 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
-2021-09-12 15:13:05,451 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
-2021-09-12 15:13:05,451 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
-2021-09-12 15:13:05,451 INFO startup [main] 
-2021-09-12 15:13:05,452 INFO startup [main] 
-2021-09-12 15:13:05,452 INFO startup [main] ##################################################################
-2021-09-12 15:13:05,452 INFO startup [main] 	
-2021-09-12 15:13:05,452 INFO startup [main] Initializing Redis Connect Instance
-2021-09-12 15:13:05,452 INFO startup [main] 	
-2021-09-12 15:13:05,452 INFO startup [main] ##################################################################
-2021-09-12 15:13:05,456 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 15:13:05,459 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 15:13:05,462 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 15:13:10,463 INFO startup [main] Requesting for Job Manager backed by : RedisStream
-2021-09-12 15:13:10,762 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 15:13:11,183 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 15:13:11,184 INFO startup [main] Initializing Job Manager
-2021-09-12 15:13:11,444 INFO startup [main] Starting Job Manager
-2021-09-12 15:13:11,446 INFO startup [main] Started Job Manager successfully
-2021-09-12 15:13:21,467 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
-2021-09-12 15:13:24,521 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
-2021-09-12 15:13:24,552 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
-2021-09-12 15:13:24,554 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
-2021-09-12 15:13:24,554 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
-2021-09-12 15:13:25,162 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
-2021-09-12 15:13:25,162 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
-2021-09-12 15:13:25,162 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 15:13:25,163 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 15:14:06,457 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:14:51,454 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:15:36,459 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:16:21,457 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:17:06,458 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:17:51,462 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:18:36,457 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:19:21,458 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:20:06,450 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:20:51,455 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:21:36,455 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:22:21,452 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 15:23:06,455 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 18:02:57,248 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 18:03:42,256 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-77605@Joses-MacBook-Pro.local
-2021-09-12 18:10:38,061 INFO startup [main] ##################################################################
-2021-09-12 18:10:38,063 INFO startup [main] 	
-2021-09-12 18:10:38,063 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
-2021-09-12 18:10:38,063 INFO startup [main] 	
-2021-09-12 18:10:38,063 INFO startup [main] ##################################################################
-2021-09-12 18:10:38,235 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 18:10:38,841 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 18:10:38,849 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
-2021-09-12 18:10:38,849 INFO startup [main] Cleaning the Script Configuration from Redis Database
-2021-09-12 18:10:38,858 INFO startup [main] Cleaning the metrics from Redis Database
-2021-09-12 18:10:38,858 INFO startup [main] Cleaning Completed.
-2021-09-12 18:10:39,928 INFO startup [main] ##################################################################
-2021-09-12 18:10:39,930 INFO startup [main] 	
-2021-09-12 18:10:39,930 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
-2021-09-12 18:10:39,930 INFO startup [main] 	
-2021-09-12 18:10:39,930 INFO startup [main] ##################################################################
-2021-09-12 18:10:40,020 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 18:10:40,634 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 18:10:40,643 INFO startup [main] Setting Job Configuration information in Redis Database
-2021-09-12 18:10:40,655 INFO startup [main] Job Configuration Information is now Set in Redis Database
-2021-09-12 18:10:40,792 ERROR startup [main] Key : public:amlcases:C:Throughput does not exist
-2021-09-12 18:10:40,796 ERROR startup [main] Key : public:amlcases:U:Throughput does not exist
-2021-09-12 18:10:40,798 ERROR startup [main] Key : public:amlcases:D:Throughput does not exist
-2021-09-12 18:10:40,801 ERROR startup [main] Key : public:amlcases:Latency does not exist
-2021-09-12 18:10:40,802 INFO startup [main] Setting Metrics Configuration in Redis Database
-2021-09-12 18:10:40,815 INFO startup [main] Metrics Configuration is now set in Redis Database
-2021-09-12 18:10:40,816 INFO startup [main] Checking for Lua Scripts if found any...
-2021-09-12 18:10:40,816 INFO startup [main] Setup Completed.
-2021-09-12 18:10:41,618 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
-2021-09-12 18:10:41,620 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
-2021-09-12 18:10:41,621 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
-2021-09-12 18:10:41,621 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
-2021-09-12 18:10:41,621 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
-2021-09-12 18:10:41,621 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
-2021-09-12 18:10:41,621 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
-2021-09-12 18:10:41,621 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
-2021-09-12 18:10:41,621 INFO startup [main] 
-2021-09-12 18:10:41,621 INFO startup [main] 
-2021-09-12 18:10:41,621 INFO startup [main] ##################################################################
-2021-09-12 18:10:41,622 INFO startup [main] 	
-2021-09-12 18:10:41,622 INFO startup [main] Initializing Redis Connect Instance
-2021-09-12 18:10:41,622 INFO startup [main] 	
-2021-09-12 18:10:41,622 INFO startup [main] ##################################################################
-2021-09-12 18:10:41,626 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 18:10:41,629 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 18:10:41,632 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 18:10:46,632 INFO startup [main] Requesting for Job Manager backed by : RedisStream
-2021-09-12 18:10:46,932 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 18:10:47,412 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 18:10:47,413 INFO startup [main] Initializing Job Manager
-2021-09-12 18:10:47,688 INFO startup [main] Starting Job Manager
-2021-09-12 18:10:47,690 INFO startup [main] Started Job Manager successfully
-2021-09-12 18:10:57,703 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
-2021-09-12 18:11:00,775 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
-2021-09-12 18:11:00,802 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
-2021-09-12 18:11:00,804 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
-2021-09-12 18:11:00,804 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
-2021-09-12 18:11:01,429 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
-2021-09-12 18:11:01,430 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
-2021-09-12 18:11:01,430 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 18:11:01,430 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 18:11:42,696 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:12:27,700 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:13:12,702 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:13:57,700 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:14:42,697 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:15:27,702 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:16:12,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:16:57,699 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:17:42,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:19:12,150 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:19:57,164 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:20:42,160 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:21:27,164 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:22:12,157 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:22:57,162 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:23:42,177 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:24:27,160 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:25:12,163 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:25:57,165 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:26:42,164 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:27:27,153 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:28:12,164 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:28:57,161 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:29:42,154 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:30:27,162 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:31:12,165 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:31:57,162 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:32:42,161 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:33:27,154 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:34:12,152 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:34:57,155 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:35:42,156 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:36:27,161 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:37:12,154 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:37:57,155 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:38:42,157 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:39:27,152 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:40:12,155 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:40:57,151 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:41:42,156 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:42:27,153 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:43:12,158 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:43:57,160 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:44:42,150 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:45:27,151 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:46:12,154 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:46:57,159 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:47:42,160 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:48:27,155 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:49:12,154 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:49:57,149 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:50:42,152 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:51:27,153 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:52:12,158 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:52:57,156 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:53:42,158 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:54:27,160 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:55:12,158 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:55:57,158 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:56:42,137 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:57:27,133 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:58:12,130 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:58:57,127 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 18:59:42,128 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:00:27,133 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:01:12,128 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:01:57,131 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:02:42,137 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:03:27,132 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:04:12,131 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:04:57,132 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:05:42,134 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:06:27,130 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:07:12,133 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:07:57,129 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:08:42,135 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:09:27,132 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:10:12,134 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:10:57,135 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:11:42,131 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:12:27,134 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:13:12,126 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:13:57,127 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:14:42,131 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:15:27,126 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 19:22:29,116 INFO startup [JobManagement-1] Job : amlcases-postgres Not running, status set to UNASSIGNED
-2021-09-12 20:22:18,041 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:00:24,055 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:01:09,049 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:01:54,049 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:02:39,049 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:03:24,047 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:04:09,051 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:04:54,047 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:05:39,049 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:06:24,045 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:07:09,044 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:07:54,044 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:08:39,044 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:09:24,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:10:09,043 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:10:54,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:11:39,041 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:12:24,042 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:13:09,042 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:13:54,046 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:14:39,041 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:15:24,039 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:16:09,041 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:16:54,039 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:17:39,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:18:24,040 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:19:09,037 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:19:54,038 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:20:39,036 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:21:24,038 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:22:09,038 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:22:54,036 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:23:39,035 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:24:24,035 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:25:09,033 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:25:54,033 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:26:39,038 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:27:24,033 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:28:09,036 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:28:54,031 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:29:39,035 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:30:24,034 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:31:09,033 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:31:54,033 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:32:39,029 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:33:24,028 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:34:09,028 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:34:54,027 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:35:39,026 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-2354@Joses-MacBook-Pro.local
-2021-09-12 21:40:44,177 INFO startup [main] ##################################################################
-2021-09-12 21:40:44,180 INFO startup [main] 	
-2021-09-12 21:40:44,180 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
-2021-09-12 21:40:44,181 INFO startup [main] 	
-2021-09-12 21:40:44,181 INFO startup [main] ##################################################################
-2021-09-12 21:40:44,366 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 21:40:45,074 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 21:40:45,083 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
-2021-09-12 21:40:45,083 INFO startup [main] Cleaning the Script Configuration from Redis Database
-2021-09-12 21:40:45,090 INFO startup [main] Cleaning the metrics from Redis Database
-2021-09-12 21:40:45,090 INFO startup [main] Cleaning Completed.
-2021-09-12 21:40:46,083 INFO startup [main] ##################################################################
-2021-09-12 21:40:46,085 INFO startup [main] 	
-2021-09-12 21:40:46,085 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
-2021-09-12 21:40:46,085 INFO startup [main] 	
-2021-09-12 21:40:46,086 INFO startup [main] ##################################################################
-2021-09-12 21:40:46,194 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 21:40:46,696 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 21:40:46,709 INFO startup [main] Setting Job Configuration information in Redis Database
-2021-09-12 21:40:46,726 INFO startup [main] Job Configuration Information is now Set in Redis Database
-2021-09-12 21:40:46,854 ERROR startup [main] Key : public:amlcases:C:Throughput does not exist
-2021-09-12 21:40:46,860 ERROR startup [main] Key : public:amlcases:U:Throughput does not exist
-2021-09-12 21:40:46,866 ERROR startup [main] Key : public:amlcases:D:Throughput does not exist
-2021-09-12 21:40:46,870 ERROR startup [main] Key : public:amlcases:Latency does not exist
-2021-09-12 21:40:46,873 INFO startup [main] Setting Metrics Configuration in Redis Database
-2021-09-12 21:40:46,892 INFO startup [main] Metrics Configuration is now set in Redis Database
-2021-09-12 21:40:46,892 INFO startup [main] Checking for Lua Scripts if found any...
-2021-09-12 21:40:46,892 INFO startup [main] Setup Completed.
-2021-09-12 21:40:47,648 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
-2021-09-12 21:40:47,650 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
-2021-09-12 21:40:47,650 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
-2021-09-12 21:40:47,650 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
-2021-09-12 21:40:47,651 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
-2021-09-12 21:40:47,651 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
-2021-09-12 21:40:47,651 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
-2021-09-12 21:40:47,651 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
-2021-09-12 21:40:47,651 INFO startup [main] 
-2021-09-12 21:40:47,651 INFO startup [main] 
-2021-09-12 21:40:47,651 INFO startup [main] ##################################################################
-2021-09-12 21:40:47,651 INFO startup [main] 	
-2021-09-12 21:40:47,651 INFO startup [main] Initializing Redis Connect Instance
-2021-09-12 21:40:47,651 INFO startup [main] 	
-2021-09-12 21:40:47,651 INFO startup [main] ##################################################################
-2021-09-12 21:40:47,655 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 21:40:47,659 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 21:40:47,662 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
-2021-09-12 21:40:52,667 INFO startup [main] Requesting for Job Manager backed by : RedisStream
-2021-09-12 21:40:53,029 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
-2021-09-12 21:40:53,521 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
-2021-09-12 21:40:53,522 INFO startup [main] Initializing Job Manager
-2021-09-12 21:40:53,738 INFO startup [main] Starting Job Manager
-2021-09-12 21:40:53,741 INFO startup [main] Started Job Manager successfully
-2021-09-12 21:41:03,754 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
-2021-09-12 21:41:06,818 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
-2021-09-12 21:41:06,846 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
-2021-09-12 21:41:06,848 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
-2021-09-12 21:41:06,848 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
-2021-09-12 21:41:07,509 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
-2021-09-12 21:41:07,509 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
-2021-09-12 21:41:07,510 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 21:41:07,510 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
-2021-09-12 21:41:48,751 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:42:33,749 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:43:18,746 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:44:03,751 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:44:48,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:45:33,749 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:46:18,744 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:47:03,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:47:48,750 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:48:33,747 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:49:18,742 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:50:03,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:50:48,748 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:51:33,743 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:52:18,744 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:53:03,777 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:53:48,747 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:54:33,744 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:55:18,745 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:56:03,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:56:48,745 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:57:33,741 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:58:18,744 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:59:03,743 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 21:59:48,743 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:00:33,744 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:01:18,740 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:02:03,744 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:02:48,742 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:03:33,740 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:04:18,741 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:05:03,745 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:05:48,740 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:06:33,741 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:07:18,745 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:08:03,743 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:08:48,731 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:09:33,727 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:10:18,737 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:11:03,733 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:11:48,728 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:12:33,728 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:13:18,727 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:14:03,729 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:14:48,731 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:15:33,732 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:16:18,734 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:17:03,731 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:17:48,739 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:18:33,737 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:19:18,737 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:20:03,740 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:20:48,736 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:21:33,735 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:22:18,734 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:23:03,737 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:23:48,734 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:24:33,733 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:25:18,738 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:26:03,739 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:26:48,737 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:27:33,737 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:28:18,747 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:29:03,743 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:29:48,740 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:30:33,746 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:31:18,745 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:32:03,745 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:32:48,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:33:33,744 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:34:18,744 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:35:03,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:35:48,745 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:36:33,750 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:37:18,748 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:38:03,753 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:38:48,748 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:39:33,754 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:40:18,748 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:41:03,753 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:41:48,751 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:42:33,752 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:43:18,750 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:44:03,719 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:44:48,714 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:45:33,720 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:46:18,720 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:47:03,716 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:47:48,720 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:48:33,722 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:49:18,723 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:50:03,714 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:50:48,722 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:51:33,716 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:52:18,725 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:53:03,717 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:53:48,719 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:54:33,720 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:55:18,721 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:56:03,720 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:56:48,727 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:57:33,725 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:58:18,729 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:59:03,731 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 22:59:48,730 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:00:33,722 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:01:18,739 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:02:03,732 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:02:48,730 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:03:33,733 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:04:18,726 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:05:03,733 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:05:48,732 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:06:33,730 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:07:18,733 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
-2021-09-12 23:08:03,730 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 03:29:45,195 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 06:33:16,427 INFO startup [JobManagement-1] Job : amlcases-postgres Not running, status set to UNASSIGNED
+2021-09-13 10:34:35,326 INFO startup [JobManagement-2]  Job : amlcases-postgres Not running, status is UNASSIGNED
+2021-09-13 10:58:50,219 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 10:59:35,209 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:00:20,206 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:01:05,213 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:01:50,208 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:02:35,209 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:03:20,210 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:04:05,209 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:04:50,215 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:05:35,204 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:06:20,205 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:07:05,208 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:07:50,204 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:08:35,211 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:09:20,201 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:10:05,206 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:10:50,211 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:11:35,208 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:12:20,207 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:13:05,205 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:13:50,198 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:14:35,198 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:15:20,202 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:16:05,200 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:16:50,200 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:17:35,197 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:18:20,192 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:19:05,202 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:19:50,200 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:20:35,193 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:21:20,195 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:22:05,193 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:22:50,189 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:23:35,191 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:24:20,192 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:25:05,191 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:25:50,186 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:26:35,189 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:27:20,188 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:28:05,187 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:28:50,189 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:29:35,190 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:30:20,188 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:31:05,191 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:31:50,192 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:32:35,191 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:33:20,188 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:34:05,190 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:34:50,189 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:35:35,193 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:36:20,179 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:37:05,181 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:37:50,181 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:38:35,182 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:39:20,187 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:40:05,192 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:40:50,185 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:41:35,184 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:42:20,187 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:43:05,191 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:43:50,181 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:44:35,181 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:45:20,183 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:46:05,185 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:46:50,190 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:47:35,181 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:48:20,182 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 11:49:05,187 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:05:00,339 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:05:45,334 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:06:30,339 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:07:15,335 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:08:00,341 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:08:45,341 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:09:30,339 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:10:15,336 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:11:00,336 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:11:45,347 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:12:30,339 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:13:15,344 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:14:00,348 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4952@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 12:16:17,882 INFO startup [main] ##################################################################
+2021-09-13 12:16:17,884 INFO startup [main] 	
+2021-09-13 12:16:17,884 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
+2021-09-13 12:16:17,884 INFO startup [main] 	
+2021-09-13 12:16:17,884 INFO startup [main] ##################################################################
+2021-09-13 12:16:17,987 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 12:16:18,447 ERROR startup [main] ERRORCODE: E1040 REASON: Unable to connect Redis Server. Please check the port number
+2021-09-13 12:16:18,447 ERROR startup [main] Error connecting to Redis for connectionId : jobConfigConnection  - Unable to connect to localhost/<unresolved>:12001
+2021-09-13 12:16:19,090 INFO startup [main] ##################################################################
+2021-09-13 12:16:19,091 INFO startup [main] 	
+2021-09-13 12:16:19,091 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
+2021-09-13 12:16:19,091 INFO startup [main] 	
+2021-09-13 12:16:19,091 INFO startup [main] ##################################################################
+2021-09-13 12:16:19,180 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 12:16:19,608 ERROR startup [main] ERRORCODE: E1040 REASON: Unable to connect Redis Server. Please check the port number
+2021-09-13 12:16:19,608 ERROR startup [main] Error connecting to Redis for connectionId : jobConfigConnection  - Unable to connect to localhost/<unresolved>:12001
+2021-09-13 12:16:20,044 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
+2021-09-13 12:16:20,046 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
+2021-09-13 12:16:20,047 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
+2021-09-13 12:16:20,047 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
+2021-09-13 12:16:20,047 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
+2021-09-13 12:16:20,047 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
+2021-09-13 12:16:20,048 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
+2021-09-13 12:16:20,048 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
+2021-09-13 12:16:20,048 INFO startup [main] 
+2021-09-13 12:16:20,048 INFO startup [main] 
+2021-09-13 12:16:20,048 INFO startup [main] ##################################################################
+2021-09-13 12:16:20,048 INFO startup [main] 	
+2021-09-13 12:16:20,048 INFO startup [main] Initializing Redis Connect Instance
+2021-09-13 12:16:20,048 INFO startup [main] 	
+2021-09-13 12:16:20,048 INFO startup [main] ##################################################################
+2021-09-13 12:16:20,052 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 12:16:20,055 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 12:16:20,057 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 12:16:25,058 INFO startup [main] Requesting for Job Manager backed by : RedisStream
+2021-09-13 12:16:25,347 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 12:16:25,742 ERROR startup [main] ERRORCODE: E1040 REASON: Unable to connect Redis Server. Please check the port number
+2021-09-13 12:16:25,742 ERROR startup [main] Error connecting to Redis for connectionId : jobConfigConnection  - Unable to connect to localhost/<unresolved>:12001
+2021-09-13 13:36:22,160 INFO startup [main] ##################################################################
+2021-09-13 13:36:22,162 INFO startup [main] 	
+2021-09-13 13:36:22,162 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
+2021-09-13 13:36:22,162 INFO startup [main] 	
+2021-09-13 13:36:22,162 INFO startup [main] ##################################################################
+2021-09-13 13:36:22,275 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 13:36:22,797 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-13 13:36:22,805 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
+2021-09-13 13:36:22,805 INFO startup [main] Cleaning the Script Configuration from Redis Database
+2021-09-13 13:36:22,812 INFO startup [main] Cleaning the metrics from Redis Database
+2021-09-13 13:36:22,812 INFO startup [main] Cleaning Completed.
+2021-09-13 13:36:23,851 INFO startup [main] ##################################################################
+2021-09-13 13:36:23,852 INFO startup [main] 	
+2021-09-13 13:36:23,853 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
+2021-09-13 13:36:23,853 INFO startup [main] 	
+2021-09-13 13:36:23,853 INFO startup [main] ##################################################################
+2021-09-13 13:36:23,939 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 13:36:24,346 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-13 13:36:24,356 INFO startup [main] Setting Job Configuration information in Redis Database
+2021-09-13 13:36:24,369 INFO startup [main] Job Configuration Information is now Set in Redis Database
+2021-09-13 13:36:24,473 ERROR startup [main] Key : public:amlcases:C:Throughput does not exist
+2021-09-13 13:36:24,479 ERROR startup [main] Key : public:amlcases:U:Throughput does not exist
+2021-09-13 13:36:24,485 ERROR startup [main] Key : public:amlcases:D:Throughput does not exist
+2021-09-13 13:36:24,490 ERROR startup [main] Key : public:amlcases:Latency does not exist
+2021-09-13 13:36:24,492 INFO startup [main] Setting Metrics Configuration in Redis Database
+2021-09-13 13:36:24,511 INFO startup [main] Metrics Configuration is now set in Redis Database
+2021-09-13 13:36:24,511 INFO startup [main] Checking for Lua Scripts if found any...
+2021-09-13 13:36:24,511 INFO startup [main] Setup Completed.
+2021-09-13 13:36:25,337 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
+2021-09-13 13:36:25,339 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
+2021-09-13 13:36:25,339 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
+2021-09-13 13:36:25,339 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
+2021-09-13 13:36:25,339 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
+2021-09-13 13:36:25,340 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
+2021-09-13 13:36:25,340 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
+2021-09-13 13:36:25,340 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
+2021-09-13 13:36:25,340 INFO startup [main] 
+2021-09-13 13:36:25,340 INFO startup [main] 
+2021-09-13 13:36:25,340 INFO startup [main] ##################################################################
+2021-09-13 13:36:25,340 INFO startup [main] 	
+2021-09-13 13:36:25,340 INFO startup [main] Initializing Redis Connect Instance
+2021-09-13 13:36:25,340 INFO startup [main] 	
+2021-09-13 13:36:25,340 INFO startup [main] ##################################################################
+2021-09-13 13:36:25,344 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 13:36:25,346 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 13:36:25,349 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-13 13:36:30,353 INFO startup [main] Requesting for Job Manager backed by : RedisStream
+2021-09-13 13:36:30,643 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-13 13:36:31,085 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-13 13:36:31,087 INFO startup [main] Initializing Job Manager
+2021-09-13 13:36:31,287 INFO startup [main] Starting Job Manager
+2021-09-13 13:36:31,289 INFO startup [main] Started Job Manager successfully
+2021-09-13 13:36:41,301 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
+2021-09-13 13:36:44,358 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
+2021-09-13 13:36:44,390 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
+2021-09-13 13:36:44,392 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
+2021-09-13 13:36:44,392 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
+2021-09-13 13:37:01,500 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
+2021-09-13 13:37:01,500 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
+2021-09-13 13:37:01,501 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-13 13:37:01,501 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-13 13:37:26,305 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-10440@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 13:38:11,295 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-10440@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 13:38:56,299 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-10440@Joses-MBP.hsd1.fl.comcast.net
+2021-09-13 13:39:41,300 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-10440@Joses-MBP.hsd1.fl.comcast.net

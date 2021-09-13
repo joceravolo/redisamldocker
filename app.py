@@ -23,7 +23,7 @@ from datetime import datetime
 
 
 
-redis_hostname = environ.get('REDIS_HOSTNAME','172.25.0.3')
+redis_hostname = environ.get('REDIS_HOSTNAME','localhost')
 redis_port = environ.get('REDIS_PORT',12000)
 redis_password = environ.get('REDIS_PASSWORD',"")
 
