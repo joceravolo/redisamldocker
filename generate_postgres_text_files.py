@@ -39,11 +39,11 @@ def create_text_file_record(fake, id, type):
     if type not in file_types:
         print("File type {} not accepted".format(type))
         exit()
-
+    
     record["guid"] = str(uuid4()).replace("-","")
     record["caseid"] = id
     record["s3url"] = fake.file_path(depth=3, extension=type)
-    if type is not 'csv':
+    if type != 'csv':
         record["body"] = fake.text(max_nb_chars=random.randrange(120,4000))
     else:
         record["body"] = ""
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     redis_port = environ.get('REDIS_PORT',12000)
     namespace = environ.get('NAMESPACE', "file") + ":"
     input_namespace = environ.get('INPUT_NAMESPACE',"case") + ":"
-    csv_dir = environ.get('CSV_DIR', None)
+    csv_dir = environ.get('CSV_DIR', "./csv")
 
     # Connect to PostgreSQL container
     print("Connecting to Postgres database...")
@@ -83,13 +83,13 @@ if __name__ == '__main__':
     fake = Faker()
 
     # Get a few records to associate files with
-    seeds = r.scan(match="case:*",count=100)[1]
+    seeds = r.scan(match="amlcases:*",count=100)[1]
     if len(seeds) <= 0:
         print("No records founds with pattern {}*".format(input_namespace))
     print("Records to use: {}", seeds)
     caselist = list()
     for result in seeds:
-        caselist.append(r.hget(result,"caseid"))
+        caselist.append(r.hget(result,"case"))
     random.shuffle(caselist)
 
     # generate the text files
@@ -100,11 +100,21 @@ if __name__ == '__main__':
         if counter == 0: 
             print("Sample record: {}".format(json.dumps(record, indent=4)))
         # r.hset("{}{}".format(namespace,record["guid"]),mapping=record)
-        mcursor.execute("insert into amlfiles (fileid, caseid, s3url, body, filetype, adddate) values (%s, %s, %s, %s, %s, %s) (record["guid"], record["caseid"], record["s3url"], record["body"], record["filetype"], record["adddate"])
+        fileid = record["guid"]
+        caseid = record["caseid"]
+        s3url = record["s3url"]
+        body = record["body"]
+        filetype = record["filetype"]
+        adddate = datetime.fromtimestamp(record["adddate"])
+        mcursor.execute("insert into amlcasefiles (fileid, caseid, s3url, body, filetype, adddate) values (%s, %s, %s, %s, %s, %s)", (fileid, caseid, s3url, body, filetype, adddate))
         counter = counter + 1
     if counter % 1000 == 0 :
         print(".",end="",flush=True)
 
+    conn.commit()
+    mcursor.close()
+    conn.close()
+    print("Connection to postgres closed.")
     ## add csv files if CSV_DIR set
     if csv_dir is not None:
         # does dir exist?
@@ -124,3 +134,4 @@ if __name__ == '__main__':
         else:
             print("Directory '{}' NOT found".format(csv_dir))
         exit()
+

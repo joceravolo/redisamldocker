@@ -122,5 +122,15 @@ case "$option" in
   open http://localhost:8001;;
 esac
 echo
+echo ------------------------------------------------------------------------------------------------------------------------------
+echo
+echo To generate more cases in the Posgres database use:
+echo python3 generate_postgres_cases.py 
+echo
+echo To generate case files in the Postgres database use:
+echo python3 generate_postgres_text_files.py 
+echo
+echo ------------------------------------------------------------------------------------------------------------------------------
+
 
 

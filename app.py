@@ -88,15 +88,15 @@ def index():
    if status is not None:
       query_str = query_str.replace("*","") + "@status:{" + status + "} "
    if tag_str is not None:
-      query_str = query_str.replace("*","") + "@related_tags:{" + tag_str + "} "
+      query_str = query_str.replace("*","") + "@relatedtags:{" + tag_str + "} "
    if pri_acctno is not None:
-      query_str = query_str.replace("*","") + "@primary_acctno:{" + pri_acctno + "} "
+      query_str = query_str.replace("*","") + "@account:{" + pri_acctno + "} "
    if ssn is not None:
       query_str = query_str.replace("*","") + "@ssn:{" + ssn + "} "      
    if priority is not None:
       query_str = query_str.replace("*","") + "@priority:{" + priority + "} "   
    if not (val_min is None and val_max is None):
-      query_str = query_str.replace("*","") + "@value:[" + val_min + " " + val_max + "]"
+      query_str = query_str.replace("*","") + "@amount:[" + val_min + " " + val_max + "]"
 
    if summarize:
       query = Query(query_str).sort_by("reportdate",asc=False).limit_fields("casebody").paging(0, count).highlight("casebody").summarize("casebody")
@@ -106,7 +106,7 @@ def index():
    results = caseclient.search(query)
    total = results.total
    cases = [
-      (lambda x: [x.case, x.investigator, x.amount, x.account, x.ssn, x.casebody, (datetime.fromtimestamp(float(x.reportdate)).strftime('%c'))]) (x) for x in results.docs
+      (lambda x: [x.case, x.investigator, x.amount, x.account, x.ssn, x.casebody, (datetime.fromtimestamp(float(x.reportdate)/1000000).strftime('%c'))]) (x) for x in results.docs
       ]
    
    cases_dict = [ (lambda x: x.__dict__)(x) for x in results.docs ]
