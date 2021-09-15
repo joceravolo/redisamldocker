@@ -4,8 +4,9 @@ producerConfig:
   connectionId: RDBConnection
   tables:
     - public.amlcases
+    - public.amlcasefiles
   pollingInterval: 5
-  metricsKey: amlcases
+  metricsKey: cdcmetrics
   metricsEnabled: false
 pipelineConfig:
   bufferSize: 1024

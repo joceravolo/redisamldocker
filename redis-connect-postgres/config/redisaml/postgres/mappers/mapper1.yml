@@ -51,3 +51,22 @@ tables:
           target: state
         - src: postcode
           target: postcode          
+  - table: amlcasefiles
+    mapper:
+      id: Test
+      processorID: Test
+      publishBefore: false
+      columns:
+        - src: fileid
+          target: fileid
+        - src: caseid
+          target: caseid
+        - src: s3url
+          target: s3url
+        - src: body
+          target: body
+        - src: filetype
+          target: filetype
+        - src: adddate
+          target: adddate
+          

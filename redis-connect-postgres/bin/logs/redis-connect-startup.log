@@ -1,804 +1,205 @@
-2021-09-14 00:00:08,896 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:00:53,890 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:01:38,891 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:02:23,893 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:03:08,901 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:03:53,889 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:04:38,889 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:05:23,894 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:06:08,893 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:06:53,892 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:07:38,889 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:08:23,894 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:09:08,886 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:09:53,895 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:10:38,891 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:11:23,885 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:12:08,888 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:12:53,881 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:13:38,890 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:14:23,887 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:15:08,882 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:15:53,884 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:16:38,883 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:17:23,869 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:18:08,875 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:18:53,873 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:19:38,861 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:20:23,876 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:21:08,867 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:21:53,875 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:22:38,868 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:23:23,869 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:24:08,875 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:24:53,870 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:25:38,870 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:26:23,874 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:27:08,875 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:27:53,874 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:28:38,873 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:29:23,870 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:30:08,869 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:30:53,866 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:31:38,867 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:32:23,864 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:33:08,860 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:33:53,856 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:34:38,861 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:35:23,860 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:36:08,871 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:36:53,874 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:37:38,869 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:38:23,860 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:39:08,858 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:39:53,866 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:40:38,858 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:41:23,861 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:42:08,868 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:42:53,857 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:43:38,861 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:44:23,864 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:45:08,858 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:45:53,856 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:46:38,859 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:47:23,868 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:48:08,867 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:48:53,858 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:49:38,858 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:50:23,857 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:51:08,857 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:51:53,861 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:52:38,846 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:53:23,844 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:54:08,843 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:54:53,839 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:55:38,842 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:56:23,847 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:57:08,839 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:57:53,839 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:58:38,837 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 00:59:23,839 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:00:08,843 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:00:53,846 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:01:38,846 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:02:23,840 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:03:08,843 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:03:53,848 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:04:38,836 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:05:23,837 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:06:08,841 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:06:53,832 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:07:38,831 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:08:23,842 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:09:08,838 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:09:53,832 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:10:38,836 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:11:23,835 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:12:08,834 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:12:53,835 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:13:38,836 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:14:23,842 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:15:08,839 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:15:53,834 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:16:38,835 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:17:23,825 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:18:08,833 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:18:53,837 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:19:38,836 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:20:23,825 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:21:08,836 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:21:53,831 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:22:38,837 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:23:23,836 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:24:08,833 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:24:53,834 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:25:38,831 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:26:23,833 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:27:08,837 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:27:53,827 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:28:38,818 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:29:23,819 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:30:08,819 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:30:53,820 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:31:38,810 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:32:23,814 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:33:08,820 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:33:53,811 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:34:38,813 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:35:23,805 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:36:08,808 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:36:53,812 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:37:38,810 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:38:23,813 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:39:08,807 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:39:53,807 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:40:38,813 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:41:23,817 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:42:08,807 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:42:53,815 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:43:38,812 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:44:23,809 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:45:08,814 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:45:53,808 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:46:38,811 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:47:23,816 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:48:08,814 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:48:53,812 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:49:38,805 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:50:23,803 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:51:08,815 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:51:53,810 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:52:38,804 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:53:23,804 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:54:08,811 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:54:53,809 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:55:38,815 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:56:23,796 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:57:08,803 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:57:53,803 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:58:38,803 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 01:59:23,804 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:00:08,811 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:00:53,805 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:01:38,805 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:02:23,809 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:03:08,803 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:03:53,805 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:04:38,778 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:05:23,780 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:06:08,780 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:06:53,788 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:07:38,789 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:08:23,789 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:09:08,780 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:09:53,786 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:10:38,780 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:11:23,789 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:12:08,789 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:12:53,776 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:13:38,780 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:14:23,781 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:15:08,792 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:15:53,781 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:16:38,780 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:17:23,778 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:18:08,790 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:18:53,788 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:19:38,780 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:20:23,778 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:21:08,785 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:21:53,790 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:22:38,779 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:23:23,790 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:24:08,784 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:24:53,774 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:25:38,782 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:26:23,771 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:27:08,783 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:27:53,787 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:28:38,788 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:29:23,785 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:30:08,782 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:30:53,787 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:31:38,775 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:32:23,783 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:33:08,782 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:33:53,779 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:34:38,779 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:35:23,778 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:36:08,775 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:36:53,782 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:37:38,776 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:38:23,756 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:39:08,761 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:39:53,754 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:40:38,755 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:41:23,760 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:42:08,760 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:42:53,752 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:43:38,765 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:44:23,758 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:45:08,759 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:45:53,763 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:46:38,756 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:47:23,758 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:48:08,759 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:48:53,751 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:49:38,755 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:50:23,757 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:51:08,753 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:51:53,754 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:52:38,753 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:53:23,754 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:54:08,748 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:54:53,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:55:38,751 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:56:23,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:57:08,760 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:57:53,743 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:58:38,748 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 02:59:23,750 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:00:08,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:00:53,760 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:01:38,755 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:02:23,748 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:03:08,749 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:03:53,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:04:38,743 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:05:23,755 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:06:08,747 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:06:53,749 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:07:38,747 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:08:23,747 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:09:08,742 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:09:53,755 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:10:38,745 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:11:23,754 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:12:08,747 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:12:53,746 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:13:38,728 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:14:23,723 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:15:08,729 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:15:53,737 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:16:38,729 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:17:23,725 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:18:08,722 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:18:53,724 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:19:38,724 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:20:23,721 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:21:08,730 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:21:53,717 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:22:38,721 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:23:23,730 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:24:08,732 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:24:53,724 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:25:38,719 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:26:23,728 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:27:08,732 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:27:53,721 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:28:38,724 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:29:23,730 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:30:08,720 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:30:53,730 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:31:38,721 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:32:23,719 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:33:08,724 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:33:53,727 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:34:38,722 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:35:23,717 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:36:08,719 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:36:53,717 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:37:38,723 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:38:23,724 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:39:08,718 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:39:53,712 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:40:38,726 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:41:23,715 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:42:08,715 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:42:53,711 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:43:38,716 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:44:23,717 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:45:08,721 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:45:53,715 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:46:38,726 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:47:23,713 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:48:08,719 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:48:53,723 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:49:38,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:50:23,704 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:51:08,702 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:51:53,698 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:52:38,695 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:53:23,699 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:54:08,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:54:53,701 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:55:38,695 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:56:23,701 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:57:08,693 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:57:53,704 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:58:38,699 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 03:59:23,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:00:08,707 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:00:53,700 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:01:38,692 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:02:23,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:03:08,696 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:03:53,693 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:04:38,692 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:05:23,700 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:06:08,700 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:06:53,691 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:07:38,702 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:08:23,691 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:09:08,693 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:09:53,698 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:10:38,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:11:23,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:12:08,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:12:53,690 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:13:38,690 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:14:23,695 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:15:08,689 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:15:53,692 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:16:38,684 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:17:23,693 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:18:08,686 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:18:53,694 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:19:38,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:20:23,688 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:21:08,688 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:21:53,690 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:22:38,693 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:23:23,689 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:24:08,696 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:24:53,687 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:25:38,669 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:26:23,673 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:27:08,663 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:27:53,675 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:28:38,673 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:29:23,667 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:30:08,669 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:30:53,674 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:31:38,673 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:32:23,672 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:33:08,670 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:33:53,662 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:34:38,673 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:35:23,670 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:36:08,664 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:36:53,672 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:37:38,672 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:38:23,662 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:39:08,662 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:39:53,665 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:40:38,674 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:41:23,663 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:42:08,664 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:42:53,666 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:43:38,661 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:44:23,672 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:45:08,670 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:45:53,663 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:46:38,659 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:47:23,662 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:48:08,660 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:48:53,660 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:49:38,666 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:50:23,667 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:51:08,664 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:51:53,663 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:52:38,653 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:53:23,664 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:54:08,661 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:54:53,668 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:55:38,664 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:56:23,664 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:57:08,660 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:57:53,664 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:58:38,654 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 04:59:23,658 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:00:08,657 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:00:53,658 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:01:38,650 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:02:23,632 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:03:08,649 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:03:53,636 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:04:38,647 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:05:23,636 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:06:08,642 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:06:53,634 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:07:38,639 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:08:23,638 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:09:08,646 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:09:53,641 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:10:38,638 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:11:23,645 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:12:08,639 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:12:53,643 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:13:38,643 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:14:23,638 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:15:08,629 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:15:53,629 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:16:38,635 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:17:23,634 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:18:08,633 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:18:53,634 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:19:38,633 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:20:23,643 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:21:08,640 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:21:53,627 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:22:38,638 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:23:23,631 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:24:08,638 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:24:53,635 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:25:38,636 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:26:23,637 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:27:08,632 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:27:53,630 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:28:38,637 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:29:23,637 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:30:08,629 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:30:53,632 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:31:38,630 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:32:23,636 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:33:08,627 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:33:53,627 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:34:38,628 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:35:23,637 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:36:08,623 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:36:53,618 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:37:38,611 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:38:23,605 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:39:08,618 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:39:53,610 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:40:38,607 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:41:23,612 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:42:08,617 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:42:53,606 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:43:38,609 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:44:23,607 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:45:08,613 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:45:53,616 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:46:38,613 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:47:23,606 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:48:08,608 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:48:53,614 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:49:38,614 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:50:23,608 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:51:08,615 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:51:53,606 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:52:38,606 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:53:23,608 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:54:08,604 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:54:53,615 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:55:38,597 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:56:23,604 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:57:08,603 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:57:53,606 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:58:38,602 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 05:59:23,610 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:00:08,612 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:00:53,603 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:01:38,611 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:02:23,604 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:03:08,600 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:03:53,610 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:04:38,602 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:05:23,599 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:06:08,605 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:06:53,602 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:07:38,603 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:08:23,602 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:09:08,600 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:09:53,609 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:10:38,601 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:11:23,606 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:12:08,597 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:12:53,590 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:13:38,577 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:14:23,582 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:15:08,588 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:15:53,582 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:16:38,585 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:17:23,584 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:18:08,585 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:18:53,586 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:19:38,587 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:20:23,577 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:21:08,576 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:21:53,582 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:22:38,573 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:23:23,588 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:24:08,587 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:24:53,577 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:25:38,586 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:26:23,570 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:27:08,576 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:27:53,577 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:28:38,575 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:29:23,582 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:30:08,576 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:30:53,572 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:31:38,582 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:32:23,568 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:33:08,573 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:33:53,576 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:34:38,578 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:35:23,578 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:36:08,578 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:36:53,576 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:37:38,579 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:38:23,576 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:39:08,568 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:39:53,573 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:40:38,574 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:41:23,577 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:42:08,578 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:42:53,574 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:43:38,579 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:44:23,569 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:45:08,575 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:45:53,582 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:46:38,573 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:47:23,583 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:48:08,566 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:48:53,560 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:49:38,557 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:50:23,558 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:51:08,556 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:51:53,559 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:52:38,554 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:53:23,550 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:54:08,552 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:54:53,559 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:55:38,553 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:56:23,560 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:57:08,553 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:57:53,559 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:58:38,553 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 06:59:23,558 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:00:08,559 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:00:53,549 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:01:38,554 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:02:23,552 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:03:08,555 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:03:53,557 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:04:38,544 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:05:23,550 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:06:08,552 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:06:53,546 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:07:38,547 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:08:23,557 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:09:08,543 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:09:53,551 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:10:38,557 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:11:23,553 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:12:08,552 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:12:53,541 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:13:38,556 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:14:23,548 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:15:08,546 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:15:53,539 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:16:38,553 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:17:23,549 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:18:08,546 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:18:53,545 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:19:38,543 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:20:23,531 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:21:08,529 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:21:53,527 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:22:38,536 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:23:23,532 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:24:08,530 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:24:53,524 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:25:38,526 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:26:23,519 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:27:08,536 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:27:53,528 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:28:38,530 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:29:23,533 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:30:08,527 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:30:53,524 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:31:38,526 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:32:23,530 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:33:08,531 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:33:53,529 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:34:38,529 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:35:23,526 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:36:08,532 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:36:53,524 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:37:38,525 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:38:23,524 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:39:08,519 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:39:53,525 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:40:38,521 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:41:23,522 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:42:08,522 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:42:53,524 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:43:38,520 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:44:23,523 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:45:08,527 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:45:53,520 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:46:38,524 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:47:23,528 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:48:08,529 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:48:53,520 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:49:38,530 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:50:23,524 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:51:08,528 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:51:53,519 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:52:38,525 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:53:23,523 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:54:08,497 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:54:53,497 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:55:38,502 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:56:23,502 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:57:08,503 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:57:53,500 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:58:38,498 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 07:59:23,498 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:00:08,494 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:00:53,507 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:01:38,505 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:02:23,490 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:03:08,494 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:03:53,497 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:04:38,503 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:05:23,501 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:06:08,504 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:06:53,503 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:07:38,502 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:08:23,500 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:09:08,494 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:09:53,502 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:10:38,495 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:11:23,493 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:12:08,498 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:12:53,501 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:13:38,495 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:14:23,504 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:15:08,491 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:15:53,494 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:16:38,491 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:17:23,498 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:18:08,498 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:18:53,500 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:19:38,496 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:20:23,496 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:21:08,489 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:21:53,498 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:22:38,494 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:23:23,500 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:24:08,500 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:24:53,499 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:25:38,499 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:26:23,492 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:27:08,497 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:27:53,489 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:28:38,489 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:29:23,473 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:30:08,478 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:30:53,468 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:31:38,471 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:32:23,476 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:33:08,475 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:33:53,468 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:34:38,470 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:35:23,477 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:36:08,474 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:36:53,476 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:37:38,468 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:38:23,469 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:39:08,465 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:39:53,472 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:40:38,458 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:41:23,474 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:42:08,464 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:42:53,469 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:43:38,471 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:44:23,467 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:45:08,463 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:45:53,464 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:46:38,461 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:47:23,469 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:48:08,462 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:48:53,474 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:49:38,465 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:50:23,466 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:51:08,463 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:51:53,462 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:52:38,471 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:53:23,464 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:54:08,461 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:54:53,461 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:55:38,461 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:56:23,458 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:57:08,463 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:57:53,459 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:58:38,462 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 08:59:23,461 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:00:08,455 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:00:53,464 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:01:38,469 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:02:23,455 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:03:08,461 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:03:53,455 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:04:38,466 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:05:23,454 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:06:08,443 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:06:53,440 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:07:38,432 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:08:23,443 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:09:08,433 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:09:53,438 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:10:38,437 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:11:23,445 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:12:08,446 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:12:53,432 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:13:38,439 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:14:23,436 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:15:08,446 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:15:53,434 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:16:38,433 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:17:23,442 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:18:08,441 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:18:53,438 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:19:38,438 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:20:23,441 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:21:08,434 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:21:53,435 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:22:38,436 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:23:23,441 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:24:08,433 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:24:53,433 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:25:38,431 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:26:23,438 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:27:08,436 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:27:53,435 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:28:38,441 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:29:23,433 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:30:08,441 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:30:53,442 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:31:38,432 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:32:23,436 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:33:08,435 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:33:53,435 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:34:38,436 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:35:23,432 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:36:08,430 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:36:53,436 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:37:38,434 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:38:23,436 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:39:08,426 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:39:53,437 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:40:38,429 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:41:23,419 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:42:08,415 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:42:53,413 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 09:56:27,633 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 10:14:13,091 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 10:44:29,160 INFO startup [JobManagement-1] Job : amlcases-postgres Not running, status set to UNASSIGNED
-2021-09-14 11:09:47,298 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:27:41,081 INFO startup [JobManagement-1]  Job : amlcases-postgres Not running, status is UNASSIGNED
-2021-09-14 11:28:26,077 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:29:11,074 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:29:56,075 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:30:41,077 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:31:26,081 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:32:11,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:42:31,817 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:43:16,810 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:44:01,815 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:44:46,810 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:45:31,806 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:46:16,806 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:47:01,812 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:47:46,812 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:48:31,818 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:49:16,806 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:50:01,803 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:50:46,806 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:51:31,814 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:52:16,812 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
-2021-09-14 11:53:01,808 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-12578@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 03:18:38,150 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4161@Joses-MacBook-Pro.local
+2021-09-15 09:42:02,769 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4161@Joses-MacBook-Pro.local
+2021-09-15 09:42:47,776 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4161@Joses-MacBook-Pro.local
+2021-09-15 09:43:32,767 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4161@Joses-MacBook-Pro.local
+2021-09-15 12:57:41,370 INFO startup [main] ##################################################################
+2021-09-15 12:57:41,372 INFO startup [main] 	
+2021-09-15 12:57:41,372 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
+2021-09-15 12:57:41,372 INFO startup [main] 	
+2021-09-15 12:57:41,372 INFO startup [main] ##################################################################
+2021-09-15 12:57:41,537 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 12:57:42,223 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 12:57:42,231 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
+2021-09-15 12:57:42,231 INFO startup [main] Cleaning the Script Configuration from Redis Database
+2021-09-15 12:57:42,241 INFO startup [main] Cleaning the metrics from Redis Database
+2021-09-15 12:57:42,242 INFO startup [main] Cleaning Completed.
+2021-09-15 12:57:43,234 INFO startup [main] ##################################################################
+2021-09-15 12:57:43,236 INFO startup [main] 	
+2021-09-15 12:57:43,236 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
+2021-09-15 12:57:43,236 INFO startup [main] 	
+2021-09-15 12:57:43,236 INFO startup [main] ##################################################################
+2021-09-15 12:57:43,349 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 12:57:43,878 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 12:57:43,890 INFO startup [main] Setting Job Configuration information in Redis Database
+2021-09-15 12:57:43,907 INFO startup [main] Job Configuration Information is now Set in Redis Database
+2021-09-15 12:57:44,055 ERROR startup [main] Key : public:amlcases:C:Throughput does not exist
+2021-09-15 12:57:44,061 ERROR startup [main] Key : public:amlcases:U:Throughput does not exist
+2021-09-15 12:57:44,067 ERROR startup [main] Key : public:amlcases:D:Throughput does not exist
+2021-09-15 12:57:44,074 ERROR startup [main] Key : public:amlcases:Latency does not exist
+2021-09-15 12:57:44,077 INFO startup [main] Setting Metrics Configuration in Redis Database
+2021-09-15 12:57:44,099 INFO startup [main] Metrics Configuration is now set in Redis Database
+2021-09-15 12:57:44,099 INFO startup [main] Checking for Lua Scripts if found any...
+2021-09-15 12:57:44,100 INFO startup [main] Setup Completed.
+2021-09-15 12:57:44,816 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
+2021-09-15 12:57:44,818 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
+2021-09-15 12:57:44,819 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
+2021-09-15 12:57:44,819 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
+2021-09-15 12:57:44,819 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
+2021-09-15 12:57:44,819 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
+2021-09-15 12:57:44,820 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
+2021-09-15 12:57:44,821 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
+2021-09-15 12:57:44,821 INFO startup [main] 
+2021-09-15 12:57:44,821 INFO startup [main] 
+2021-09-15 12:57:44,821 INFO startup [main] ##################################################################
+2021-09-15 12:57:44,821 INFO startup [main] 	
+2021-09-15 12:57:44,821 INFO startup [main] Initializing Redis Connect Instance
+2021-09-15 12:57:44,822 INFO startup [main] 	
+2021-09-15 12:57:44,822 INFO startup [main] ##################################################################
+2021-09-15 12:57:44,825 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 12:57:44,828 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 12:57:44,830 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 12:57:49,834 INFO startup [main] Requesting for Job Manager backed by : RedisStream
+2021-09-15 12:57:50,237 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 12:57:50,859 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 12:57:50,861 INFO startup [main] Initializing Job Manager
+2021-09-15 12:57:51,096 INFO startup [main] Starting Job Manager
+2021-09-15 12:57:51,098 INFO startup [main] Started Job Manager successfully
+2021-09-15 12:58:01,111 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
+2021-09-15 12:58:04,196 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
+2021-09-15 12:58:04,238 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
+2021-09-15 12:58:04,242 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
+2021-09-15 12:58:04,242 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
+2021-09-15 12:58:22,434 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
+2021-09-15 12:58:22,434 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
+2021-09-15 12:58:22,435 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-15 12:58:22,435 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-15 12:58:46,107 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 12:59:31,109 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:00:16,106 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:01:01,109 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:01:46,106 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:02:31,105 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:03:16,106 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:04:01,105 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:04:46,105 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:05:31,082 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:06:16,070 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:07:01,070 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:07:46,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:08:31,072 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:09:16,070 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:10:01,076 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:10:46,073 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:11:31,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:12:16,071 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:13:01,072 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:13:46,071 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:14:31,070 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:15:16,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:16:01,071 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:16:46,079 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:17:31,074 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:18:16,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:19:01,071 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:19:46,070 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:20:31,070 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:21:16,072 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:22:01,071 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:22:46,071 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:23:31,072 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:24:16,072 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:25:01,072 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:25:46,077 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:26:31,078 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:27:16,073 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:28:01,068 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:28:46,079 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:29:31,090 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:30:16,090 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:31:01,089 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:31:46,090 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:32:31,085 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:33:16,089 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:34:01,086 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:34:46,091 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:35:31,093 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:36:16,091 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:37:01,093 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:37:46,094 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:38:31,089 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:39:16,098 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:40:01,098 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:40:46,090 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:41:31,096 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:42:16,090 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:43:01,100 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:43:46,095 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:44:31,096 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:45:16,099 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:46:01,099 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:46:46,102 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:47:31,097 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:48:16,099 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:49:01,105 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:49:46,098 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:50:31,103 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-3710@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:52:34,383 INFO startup [main] ##################################################################
+2021-09-15 13:52:34,385 INFO startup [main] 	
+2021-09-15 13:52:34,385 INFO startup [main] REDIS CONNECT SETUP CLEAN - Cleaning the Existing Configs which are present in Redis Database
+2021-09-15 13:52:34,385 INFO startup [main] 	
+2021-09-15 13:52:34,385 INFO startup [main] ##################################################################
+2021-09-15 13:52:34,491 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 13:52:35,064 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 13:52:35,072 INFO startup [main] Cleaning Job Stream and Job Configuration from Redis Database
+2021-09-15 13:52:35,072 INFO startup [main] Cleaning the Script Configuration from Redis Database
+2021-09-15 13:52:35,078 INFO startup [main] Cleaning the metrics from Redis Database
+2021-09-15 13:52:35,079 INFO startup [main] Cleaning Completed.
+2021-09-15 13:52:36,128 INFO startup [main] ##################################################################
+2021-09-15 13:52:36,130 INFO startup [main] 	
+2021-09-15 13:52:36,130 INFO startup [main] REDIS CONNECT SETUP CREATE - Creating the configs in Redis Database
+2021-09-15 13:52:36,130 INFO startup [main] 	
+2021-09-15 13:52:36,130 INFO startup [main] ##################################################################
+2021-09-15 13:52:36,218 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 13:52:36,643 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 13:52:36,655 INFO startup [main] Setting Job Configuration information in Redis Database
+2021-09-15 13:52:36,685 INFO startup [main] Job Configuration Information is now Set in Redis Database
+2021-09-15 13:52:36,810 ERROR startup [main] Key public:amlcases:C:Throughput already exists
+2021-09-15 13:52:36,813 ERROR startup [main] Key public:amlcases:U:Throughput already exists
+2021-09-15 13:52:36,816 ERROR startup [main] Key public:amlcases:D:Throughput already exists
+2021-09-15 13:52:36,819 ERROR startup [main] Key public:amlcases:Latency already exists
+2021-09-15 13:52:36,819 INFO startup [main] Setting Metrics Configuration in Redis Database
+2021-09-15 13:52:36,834 INFO startup [main] Metrics Configuration is now set in Redis Database
+2021-09-15 13:52:36,835 INFO startup [main] Checking for Lua Scripts if found any...
+2021-09-15 13:52:36,835 INFO startup [main] Setup Completed.
+2021-09-15 13:52:47,079 INFO startup [main]  /$$$$$$$                  /$$ /$$                  /$$$$$$                                                      /$$
+2021-09-15 13:52:47,081 INFO startup [main] | $$__  $$                | $$|__/                 /$$__  $$                                                    | $$
+2021-09-15 13:52:47,081 INFO startup [main] | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$$      | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$
+2021-09-15 13:52:47,081 INFO startup [main] | $$$$$$$/ /$$__  $$ /$$__  $$| $$ /$$_____/      | $$       /$$__  $$| $$__  $$| $$__  $$ /$$__  $$ /$$_____/|_  $$_/
+2021-09-15 13:52:47,081 INFO startup [main] | $$__  $$| $$$$$$$$| $$  | $$| $$|  $$$$$$       | $$      | $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$| $$        | $$
+2021-09-15 13:52:47,081 INFO startup [main] | $$  \ $$| $$_____/| $$  | $$| $$ \____  $$      | $$    $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$        | $$ /$$
+2021-09-15 13:52:47,082 INFO startup [main] | $$  | $$|  $$$$$$$|  $$$$$$$| $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/
+2021-09-15 13:52:47,082 INFO startup [main] |__/  |__/ \_______/ \_______/|__/|_______/        \______/  \______/ |__/  |__/|__/  |__/ \_______/ \_______/   \___/
+2021-09-15 13:52:47,082 INFO startup [main] 
+2021-09-15 13:52:47,082 INFO startup [main] 
+2021-09-15 13:52:47,082 INFO startup [main] ##################################################################
+2021-09-15 13:52:47,082 INFO startup [main] 	
+2021-09-15 13:52:47,082 INFO startup [main] Initializing Redis Connect Instance
+2021-09-15 13:52:47,082 INFO startup [main] 	
+2021-09-15 13:52:47,082 INFO startup [main] ##################################################################
+2021-09-15 13:52:47,086 INFO startup [main] connect-core         : Build : 1.0.2.150 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 13:52:47,088 INFO startup [main] connect-redis-core   : Build : 1.0.2.144 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 13:52:47,090 INFO startup [main] connector-rdb        : Build : 1.0.2.149 : Build-Time : 2021-07-27T23:17:09Z
+2021-09-15 13:52:52,092 INFO startup [main] Requesting for Job Manager backed by : RedisStream
+2021-09-15 13:52:52,395 DEBUG reactor.util.Loggers$LoggerFactory [main] Using Slf4j logging framework
+2021-09-15 13:52:52,836 INFO startup [main] Connected to Redis for connectionId : jobConfigConnection PING received PONG 
+2021-09-15 13:52:52,838 INFO startup [main] Initializing Job Manager
+2021-09-15 13:52:53,033 INFO startup [main] Starting Job Manager
+2021-09-15 13:52:53,036 INFO startup [main] Started Job Manager successfully
+2021-09-15 13:53:03,047 INFO startup [JobManagement-1] Job Manager owned by a different process ? : false : jobType1
+2021-09-15 13:53:06,104 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_HASH_WRITER
+2021-09-15 13:53:06,136 INFO startup [JobManagement-1] Connected to Redis for connectionId : srcConnection PING received PONG 
+2021-09-15 13:53:06,138 INFO startup [JobManagement-1] Getting instance of EventHandler for : REDIS_OP_CP_WRITER
+2021-09-15 13:53:06,139 WARN startup [JobManagement-1] metricsKey not set - Metrics collection will be disabled
+2021-09-15 13:53:06,701 INFO startup [JobManagement-1] Fetched JobConfig for : amlcases-postgres 
+2021-09-15 13:53:06,701 INFO startup [JobManagement-1] Starting Pipeline for Job : amlcases-postgres
+2021-09-15 13:53:06,701 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-15 13:53:06,701 INFO startup [JobManagement-1] 1 of 1 Jobs Claimed
+2021-09-15 13:53:48,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:54:33,044 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:55:18,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:56:03,043 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:56:48,044 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:57:33,044 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:58:18,045 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:59:03,046 INFO startup [JobManagement-1] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
+2021-09-15 13:59:47,992 INFO startup [JobManagement-2] Job : amlcases-postgres is running  heartbeat : JC-4709@Joses-MBP.hsd1.fl.comcast.net
